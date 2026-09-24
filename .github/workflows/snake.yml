@@ -23,6 +23,37 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      - name: Make the snake blue and leave a blue trail
+        run: |
+          cat > blue_snake.py <<'PY'
+          import re, sys
+
+          path, mode = sys.argv[1], sys.argv[2]          # mode: dark | light
+          BLUES = {
+              "dark":  ["#0a2a5c", "#0e4494", "#1a63d6", "#2f81f7"],   # low -> high intensity
+              "light": ["#cfe4ff", "#8bbcff", "#4a92f5", "#0969da"],
+          }[mode]
+          SNAKE = "#79c0ff" if mode == "dark" else "#1f3a8a"
+
+          s = open(path, encoding="utf-8").read()
+
+          # 1) add blue colours next to the existing green ones, and make the snake blue
+          blue_vars = "".join(f"--b{i+1}:{c};" for i, c in enumerate(BLUES))
+          s, n_root = re.subn(r":root\{", ":root{" + blue_vars, s, count=1)
+          s = re.sub(r"--cs:[^;}]+", f"--cs:{SNAKE}", s, count=1)
+
+          # 2) when a cell is eaten, turn it into the blue of the SAME level instead of the empty colour
+          pat = re.compile(
+              r"(@keyframes c\w+\{[\d.]+%\{fill:var\(--c)([1-4])(\)\}[\d.]+%,100%\{fill:)var\(--ce\)(\}\})"
+          )
+          s, n_cells = pat.subn(lambda m: f"{m.group(1)}{m.group(2)}{m.group(3)}var(--b{m.group(2)}){m.group(4)}", s)
+
+          open(path, "w", encoding="utf-8").write(s)
+          print(f"{path}: root vars added={n_root}, cells recoloured={n_cells}")
+          PY
+          python3 blue_snake.py dist/github-snake.svg light
+          python3 blue_snake.py dist/github-snake-dark.svg dark
+
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
