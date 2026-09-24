@@ -1,5 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/32601209/README.1.md)
-
+[README (2).md](https://github.com/user-attachments/files/32601524/README.2.md)
 <!-- ============ HEADER ============ -->
 <div align="center">
 
@@ -127,21 +126,10 @@ A **language-learning AI chatbot** with a simple web interface and a deep learni
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Yashansh-Gupta&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7f5af0&icon_color=2cb67d&count_private=true" alt="stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashansh-Gupta&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7f5af0" alt="top languages" />
+<img height="190" src="https://raw.githubusercontent.com/Yashansh-Gupta/Yashansh-Gupta/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="stats" />
+<img height="190" src="https://raw.githubusercontent.com/Yashansh-Gupta/Yashansh-Gupta/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="top languages" />
 
 <img src="https://streak-stats.demolab.com?user=Yashansh-Gupta&theme=tokyonight&hide_border=true&background=0d1117&ring=7f5af0&fire=2cb67d&currStreakLabel=7f5af0" alt="streak" />
-
-</div>
-
-<br/>
-
-<!-- ============ ACTIVITY GRAPH ============ -->
-## 📅 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashansh-Gupta&bg_color=0d1117&color=7f5af0&line=2cb67d&point=ffffff&area=true&hide_border=true" width="100%" alt="activity graph" />
 
 </div>
 
