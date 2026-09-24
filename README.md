@@ -77,7 +77,7 @@ A **FastAPI** service that runs **four ML models** together, with a **Streamlit*
     <td width="50%" valign="top">
 
 ### 🧠 IPF Detection
-A **multimodal deep learning** model. *(Add one line here on what data it uses and how well it performs.)*
+A **multimodal deep learning** model. *A PyTorch multimodal deep learning model that predicts lung-function decline in Idiopathic Pulmonary Fibrosis from 3,000+ CT scans plus clinical data. 13% more accurate than clinical baselines.*
 
 `Deep Learning` `Multimodal` `Python`
 
@@ -89,9 +89,9 @@ A **multimodal deep learning** model. *(Add one line here on what data it uses a
     <td width="50%" valign="top">
 
 ### 📊 WinPulse
-*(Add one line here on what WinPulse does.)*
+*A Windows system monitor that tracks CPU, memory, disk and network health in real time. It spots real slowdowns using anomaly detection (and ignores short spikes), and saves history to SQLite for a live dashboard.*
 
-`Python`
+`Python` `PyQt6` `SQLite` `Multi-threading`
 
 [View Project →](https://github.com/Yashansh-Gupta/WinPulse)
 
