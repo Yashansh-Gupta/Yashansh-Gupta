@@ -19,7 +19,7 @@
 <br/>
 
 <!-- ============ ABOUT (terminal style) ============ -->
-## 👨‍💻 About Me
+## About Me
 
 ```python
 class Yashansh:
@@ -30,7 +30,7 @@ class Yashansh:
         self.cgpa       = 9.06
         self.focus      = ["Backend Development", "AI / ML Engineering"]
         self.loves      = ["APIs", "Deep Learning", "Clean READMEs"]
-        self.status     = "Open to internships & full-time roles 🚀"
+        self.status     = "Open to internships & full-time roles "
 
     def motto(self):
         return "Build it, break it, fix it, ship it."
@@ -39,7 +39,7 @@ class Yashansh:
 <br/>
 
 <!-- ============ TECH STACK ============ -->
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -60,7 +60,7 @@ class Yashansh:
 <br/>
 
 <!-- ============ FEATURED PROJECTS ============ -->
-## 🚀 Featured Projects
+## Featured Projects
 
 <table>
   <tr>
@@ -76,7 +76,7 @@ A **FastAPI** service that runs **four ML models** together, with a **Streamlit*
 </td>
     <td width="50%" valign="top">
 
-### 🧠 IPF Detection
+### IPF Detection
 A **multimodal deep learning** model. *A PyTorch multimodal deep learning model that predicts lung-function decline in Idiopathic Pulmonary Fibrosis from 3,000+ CT scans plus clinical data. 13% more accurate than clinical baselines.*
 
 `Deep Learning` `Multimodal` `Python`
@@ -88,7 +88,7 @@ A **multimodal deep learning** model. *A PyTorch multimodal deep learning model 
   <tr>
     <td width="50%" valign="top">
 
-### 📊 WinPulse
+### WinPulse
 *A Windows system monitor that tracks CPU, memory, disk and network health in real time. It spots real slowdowns using anomaly detection (and ignores short spikes), and saves history to SQLite for a live dashboard.*
 
 `Python` `PyQt6` `SQLite` `Multi-threading`
@@ -98,7 +98,7 @@ A **multimodal deep learning** model. *A PyTorch multimodal deep learning model 
 </td>
     <td width="50%" valign="top">
 
-### 🗣️ Conversio
+### Conversio
 A **language-learning AI chatbot** with a simple web interface and a deep learning backend using **Ollama** for LLM inference.
 
 `Ollama` `LLM` `HTML`
@@ -122,7 +122,7 @@ A **language-learning AI chatbot** with a simple web interface and a deep learni
 <br/>
 
 <!-- ============ STATS ============ -->
-## 📈 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -149,16 +149,16 @@ A **language-learning AI chatbot** with a simple web interface and a deep learni
 <br/>
 
 <!-- ============ CERTIFICATIONS ============ -->
-## 🎓 Certifications
+## Certifications
 
-- 🏛️ **Executive PG Certificate** — IIT Roorkee
-- 🔬 **Data Science Professional Certificate** — IBM
-- 🗄️ **SQL Certificate**
+-  **Executive PG Certificate** — IIT Roorkee
+-  **Data Science Professional Certificate** — IBM
+-  **SQL Certificate**
 
 <br/>
 
 <!-- ============ CONNECT ============ -->
-## 🤝 Let's Connect
+## Let's Connect
 
 <div align="center">
 
